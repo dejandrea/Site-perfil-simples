@@ -15,6 +15,10 @@ div{
 
 .subtitle{
     margin: auto;
+    background-color: rgba(131, 83, 124, 0.479);
+    width: 700px;
+    margin-bottom: 10px;
+    border-radius: 15px;
 }
 
 #title{
@@ -35,7 +39,7 @@ a{
 .post{
     background-color: rgb(101, 62, 128);
     padding: 10px;
-    border: 3px solid black;
+    
     margin: auto;
     margin-bottom: 10px;
     border-radius: 15px;
@@ -66,19 +70,24 @@ a{
 
 footer{
     margin: auto;
+    width: 700px;
+    background-color: rgba(131, 83, 124, 0.479);
+    border-radius: 15px;
+    padding: 5px;
 }
 
 ul{
     list-style-type: circle;
     padding: 10px;
-    
-
 }
-
+.icons{
+    list-style-type: none;
+}
 li a {
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(0, 0, 0);
     text-transform: none;
+    letter-spacing: normal;
   }
 
 .imgIcon{
